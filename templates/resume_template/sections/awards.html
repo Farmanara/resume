@@ -6,6 +6,7 @@
                     {%for item in section.content.list%}
                         <li>
                             {%if item.sup%}
+                            <span class="fa-li"><i class="{{item.icon}}"></i></span>
                             {{item.num}}
                             <sup>{{item.sup}}</sup>
                             {{item.text}}
