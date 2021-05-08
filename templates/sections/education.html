@@ -1,0 +1,20 @@
+     <!-- Education-->
+            <section class="resume-section" id="{{section.content.id}}">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">{{section.content.title}}</h2>
+                    {%for item in section.content.list%}
+                    <div class="{{item.div_class}}">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">{{item.heading}}</h3>
+                            <div class="subheading mb-3">{{item.subheading}}</div>
+                            {%if item.description%}<div>{{item.description}}</div>{%endif%}
+                            <p>{{item.text}}</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">{{item.date}}</span></div>
+                    </div>
+                    {%endfor%}
+                 
+                </div>
+            </section>
+
+            <hr class="m-0" />

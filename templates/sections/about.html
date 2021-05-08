@@ -1,0 +1,21 @@
+    <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        {{section.content.name}}
+                        <span class="text-primary">{{section.content.surname}}</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        {{section.content.address}}· {{section.content.tel}} ·
+                        <a href="{{section.content.email_href}}">{{section.content.email}}</a>
+                    </div>
+                    <p class="lead mb-5">{{section.content.description}}</p>
+                    <div class="social-icons">
+                    {%for social in section.content.socials%}
+                        <a class="social-icon" href="{{social.href}}"><i class="{{social.icon}}"></i></a>
+                    {%endfor%}
+                
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />

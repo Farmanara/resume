@@ -1,0 +1,23 @@
+         <!-- Awards-->
+            <section class="resume-section" id="{{section.content.id}}">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">{{section.content.heading}}</h2>
+                    <ul class="fa-ul mb-0">
+                    {%for item in section.content.list%}
+                        <li>
+                            {%if item.sup%}
+                            {{item.num}}
+                            <sup>{{item.sup}}</sup>
+                            {{item.text}}
+                            {%else%}
+                            <span class="fa-li"><i class="{{item.icon}}"></i></span>
+                            {{item.text}}
+                            {%endif%}
+                        </li>
+
+                    {%endfor%}
+          
+                        
+                    </ul>
+                </div>
+            </section>

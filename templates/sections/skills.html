@@ -1,0 +1,32 @@
+  
+            <!-- Skills-->
+            <section class="resume-section" id="{{section.content.id}}">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">{{section.content.title}}</h2>
+
+                    {%for item in section.content.skills%}
+                    <div class="subheading mb-3">{{item.heading}}</div>
+                    <ul class="{{item.list_class}}">
+                    {%if item.icons%}
+                    {%for icon in item.icons%}
+                        <li class="list-inline-item"><i class="{{icon.icon}}"></i></li>
+                    {%endfor%}
+                    {%endif%}
+                    {%if item.checkmarks %} 
+                    {%for checkmark in item.checkmarks%}
+
+                    <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            {{checkmark.text}}
+                    </li>
+                    {%endfor%}
+                    {%endif%}
+                    
+                    </ul>
+                    {%endfor%}
+
+
+                    
+                </div>
+            </section>
+            <hr class="m-0" />

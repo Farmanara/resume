@@ -1,0 +1,264 @@
+{
+    "head": {
+        "meta": {
+            "description": "",
+            "author": ""
+        },
+        "title": "Resume - Start Bootstrap Theme",
+        "favicon": "resume_template/assets/img/favicon.ico"
+    },
+    "sidebar": {
+        "id": "sideNav",
+        "img_href": "#page-top",
+        "title": "Clarence Taylor",
+        "img": "resume_template/assets/img/profile.jpg",
+        "img_alt": "...",
+        "list": [
+            {
+                "href": "#about",
+                "text": "About"
+            },
+            {
+                "href": "#experience",
+                "text": "Experience"
+            },
+            {
+                "href": "#education",
+                "text": "Education"
+            },
+            {
+                "href": "#skills",
+                "text": "Skills"
+            },
+            {
+                "href": "#interests",
+                "text": "Interests"
+            },
+            {
+                "href": "#awards",
+                "text": "Awards"
+            }
+        ]
+    },
+    "sections": [
+        {
+            "file": "resume_template/sections/about.html",
+            "content": {
+                "id": "about",
+                "name": "Clarence",
+                "surname": "Taylor",
+                "address": "3542 Berry Street · Cheyenne Wells, CO 80810 ",
+                "tel": "(317) 585-8468",
+                "email_href": "mailto:name@email.com",
+                "email": "name@email.com",
+                "description": "I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
+                "socials": [
+                    {
+                        "href": "#",
+                        "icon": "fab fa-linkedin-in"
+                    },
+                    {
+                        "href": "#",
+                        "icon": "fab fa-github"
+                    },
+                    {
+                        "href": "#",
+                        "icon": "fab fa-twitter"
+                    },
+                    {
+                        "href": "#",
+                        "icon": "fab fa-facebook-f"
+                    }
+                ]
+            }
+        },
+        {
+            "file": "resume_template/sections/experience.html",
+            "content": {
+                "id": "experience",
+                "title": "Experience",
+                "list": [
+                    {
+                        "div_class": "d-flex flex-column flex-md-row justify-content-between mb-5",
+                        "heading": "Senior Web Developer",
+                        "subheading": "Intelitec Solutions",
+                        "description": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
+                        "date": "March 2013 - Present"
+                    },
+                    {
+                        "div_class": "d-flex flex-column flex-md-row justify-content-between mb-5",
+                        "heading": "Web Developer",
+                        "subheading": "Intelitec Solutions",
+                        "description": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.",
+                        "date": "December 2011 - March 2013"
+                    },
+                    {
+                        "div_class": "d-flex flex-column flex-md-row justify-content-between mb-5",
+                        "heading": "Junior Web Designer",
+                        "subheading": "Shout! Media Productions",
+                        "description": "Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.",
+                        "date": "July 2010 - December 2011"
+                    },
+                    {
+                        "div_class": "d-flex flex-column flex-md-row justify-content-between",
+                        "heading": "Web Design Intern",
+                        "subheading": "Shout! Media Productions",
+                        "description": "Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.",
+                        "date": "September 2008 - June 2010"
+                    }
+                ]
+            }
+        },
+        {
+            "file": "resume_template/sections/education.html",
+            "content": {
+                "id": "education",
+                "title": "Education",
+                "list": [
+                    {
+                        "div_class": "d-flex flex-column flex-md-row justify-content-between mb-5",
+                        "heading": "University of Colorado Boulder",
+                        "subheading": "Bachelor of Science",
+                        "description": "Computer Science - Web Development Track",
+                        "text": "GPA: 3.23",
+                        "date": "August 2006 - May 2010"
+                    },
+                    {
+                        "div_class": "d-flex flex-column flex-md-row justify-content-between",
+                        "heading": "James Buchanan High School",
+                        "subheading": "Technology Magnet Program",
+                        "description": "",
+                        "text": "GPA: 3.56",
+                        "date": "August 2002 - May 2006"
+                    }
+                ]
+            }
+        },
+        {
+            "file": "resume_template/sections/skills.html",
+            "content": {
+                "id": "skills",
+                "title": "Skills",
+                "skills": [
+                    {
+                        "heading": "Programming Languages & Tools",
+                        "list_class": "list-inline dev-icons",
+                        "icons": [
+                            {
+                                "icon": "fab fa-html5"
+                            },
+                            {
+                                "icon": "fab fa-css3-alt"
+                            },
+                            {
+                                "icon": "fab fa-js-square"
+                            },
+                            {
+                                "icon": "fab fa-angular"
+                            },
+                            {
+                                "icon": "fab fa-react"
+                            },
+                            {
+                                "icon": "fab fa-node-js"
+                            },
+                            {
+                                "icon": "fab fa-sass"
+                            },
+                            {
+                                "icon": "fab fa-less"
+                            },
+                            {
+                                "icon": "fab fa-wordpress"
+                            },
+                            {
+                                "icon": "fab fa-gulp"
+                            },
+                            {
+                                "icon": "fab fa-grunt"
+                            },
+                            {
+                                "icon": "fab fa-npm"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Workflow",
+                        "list_class": "fa-ul mb-0",
+                        "checkmarks": [
+                            {
+                                "text": "Mobile-First, Responsive Design"
+                            },
+                            {
+                                "text": "Cross Browser Testing & Debugging"
+                            },
+                            {
+                                "text": "Cross Functional Teams"
+                            },
+                            {
+                                "text": "Agile Development & Scrum"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "file": "resume_template/sections/interests.html",
+            "content": {
+                "id": "interests",
+                "heading": "Interests",
+                "paragraph": "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.",
+                "last_paragraph": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world."
+            }
+        },
+        {
+            "file": "resume_template/sections/awards.html",
+            "content": {
+                "id": "awards",
+                "heading": "Awards & Certifications",
+                "list": [
+                    {
+                        "icon": "fas fa-trophy text-warning",
+                        "text": "Google Analytics Certified Developer"
+                    },
+                    {
+                        "icon": "fas fa-trophy text-warning",
+                        "text": "Mobile Web Specialist - Google Certification"
+                    },
+                    {
+                        "icon": "fas fa-trophy text-warning",
+                        "num":"1",
+                        "sup":"st",
+                        "text": "Place - University of Colorado Boulder - Emerging Tech Competition 2009"
+                    },
+                    {
+                        "icon": "fas fa-trophy text-warning",
+                        "num":"1",
+                        "sup":"st",
+                        "text": "Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)"
+                    },
+                    {
+                        "icon": "fas fa-trophy text-warning",
+                        "num":"2",
+                        "sup":"nd",
+                        "text": "Place - University of Colorado Boulder - Emerging Tech Competition 2008"
+                    },
+                    {
+                        "icon": "fas fa-trophy text-warning",
+                        "num":"1",
+                        "sup":"st",
+                        "text": "PlacePlace - James Buchanan High School - Hackathon 2006"
+                    },
+                    {
+                        "icon": "fas fa-trophy text-warning",
+                        "num":"3",
+                        "sup":"rd",
+                        "text": "Place - James Buchanan High School - Hackathon 2005"
+                    }
+                    
+                ]
+            }
+        }
+    ]
+}
